@@ -1,0 +1,38 @@
+.App{
+    text-align: center;
+}
+.App > h1{
+    text-shadow: 4px 2px 5px #353333;
+}
+.Result-container{
+    max-width: 500px;
+
+    text-align: left;
+    box-shadow: 10px 10px 10px #a69f9f;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.Question-container{
+    max-width: 500px;
+
+    text-align: left;
+    box-shadow: 10px 10px 10px #a69f9f;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.question-form .submit{
+    width: 100%;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.Question-container .radio{
+    margin: 10px 0;
+    display: block;
+}
