@@ -60,7 +60,7 @@ function App() {
 
   }
 if(!quiz.length)
-return  <h3>Loading...</h3>
+return  <h1 className="loading">Loading...</h1>
 
 
 if (
@@ -68,10 +68,10 @@ if (
   return(
     <div className="Result-container">
       <h2>Result</h2>
-      <p>Your final score is : 
-        <b>{score} </b>+ out of : <b>{quiz.length}</b></p>
+      <p>Your final score is :   
+         <b>{score} </b>  out of : <b>{quiz.length}</b></p>
 
-      <input type="submit" onClick={restartQuiz}></input>
+      <input type="submit" className="submit" value="Resatrt Quiz" onClick={restartQuiz}></input>
     </div>
   )
 }

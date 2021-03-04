@@ -1,8 +1,29 @@
 .App{
+    text-align: center;     
+}
+.loading{
     text-align: center;
+    text-shadow: 4px 2px 5px #4d4a4a;
+    margin-top: 150px;
+    color: cornsilk;
+
+} 
+body{
+    /* background: lightblue url("./media/quizbg.jpg")  center ; */
+   
+    background-image: url("./media/qbg.jpg");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
 }
 .App > h1{
-    text-shadow: 4px 2px 5px #353333;
+    text-shadow: 4px 2px 5px #4d4a4a;
+    margin-top: 150px;
+    color: cornsilk;
 }
 .Result-container{
     max-width: 500px;
@@ -11,8 +32,9 @@
     box-shadow: 10px 10px 10px #a69f9f;
     padding: 20px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 150px;
     text-align: center;
+    background-color: cornsilk;
 }
 .Question-container{
     max-width: 500px;
@@ -22,11 +44,22 @@
     padding: 20px;
     margin: 0 auto;
     margin-top: 50px;
+    background-color: cornsilk;
 }
+.Result-container .submit {
+width: 100%;
+border: none;
+background-color: rgb(122, 111, 9);
+color: white;
+border-radius: 5px;
+padding: 10px;
+margin-top: 20px;
+}
+
 .question-form .submit{
     width: 100%;
     border: none;
-    background-color: blueviolet;
+    background-color: rgb(122, 111, 9);
     color: white;
     border-radius: 5px;
     padding: 10px;
