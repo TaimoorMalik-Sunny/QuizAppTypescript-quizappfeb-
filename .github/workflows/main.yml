@@ -19,15 +19,14 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-   steps:
+    steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
     - name: Setup Node.js environment
       uses: actions/setup-node@v2-beta
-      with:
+       with:
         Version: 12
 
     # Runs a set of commands using the runners shell
